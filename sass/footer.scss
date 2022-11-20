@@ -1,0 +1,15 @@
+.footer {
+    &__container {
+        padding-top: 78px;
+        padding-bottom: 80px;
+
+        &-text {
+            text-align: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: $font-main;
+            line-height: 33px;
+            color: $main-white;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@import './reset/reset.scss';
+@import './vars/vars.scss';
+@import './header.scss';
+@import './hero.scss';
+@import './about.scss';
+@import './portfolio.scss';
+@import './footer.scss';
+@import './skills.scss';
+@import './modal.scss';
+
+body {
+    background: $bg-dark;
+    color: $main-white;
+    transition: .3s ease;
+}
+
+.bg-light {
+    background: $bg-light;
+    color: $main-black !important;
+}
+
+.bg-light h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+marquee,
+a {
+    color: $main-black !important;
+}
+
+.bg-light button {
+    background: #fff;
+    color: $main-black !important;
+}
+
+.bg-light .portfolio__tabs-block {
+    background: none !important;
+}
+
+.bg-light .portfolio__tabs-button-btn {
+    border-radius: 8px;
+    // background: #D7D7D7;
+    background: none;
+}
+
+.bg-light .header__theme {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+}
+
+// Containers
+.content-wrapper {
+    max-width: 790px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}

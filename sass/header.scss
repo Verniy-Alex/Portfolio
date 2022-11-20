@@ -1,0 +1,61 @@
+.header {
+    padding-top: 33px;
+    padding-bottom: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__theme {
+        border-radius: 50%;
+        background: #171F26;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .2s ease-in-out;
+
+        &:hover {
+            background: #E7E7E7;
+        }
+
+        &-icon {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+
+            &:hover {
+                color: #3D3D3D;
+            }
+        }
+    }
+}
+
+.icon-dark {
+    background: #171F26;
+
+    &:hover {
+        background: #E7E7E7;
+    }
+}
+
+.icon-light {
+    background: #E7E7E7;
+
+    &:hover {
+        background: #171F26;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .header__theme {
+        width: 48px;
+        height: 48px;
+
+        &-icon {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+}

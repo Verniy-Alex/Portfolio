@@ -1,0 +1,106 @@
+.about {
+    padding-top: 48px;
+    padding-bottom: 75px;
+
+    &__content {
+        padding-bottom: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        &-box {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &-number {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 36px;
+            color: $main-white;
+            padding-bottom: 12px;
+        }
+
+        &-text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: $font-main;
+            line-height: 33px;
+            text-align: center;
+            color: $main-white;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-btn {
+            margin-right: 38px;
+
+            &-item {
+                background: #171F26;
+                border-radius: 10px;
+                font-weight: 500;
+                font-size: $font-main;
+                color: $main-white;
+                line-height: 33px;
+                text-align: center;
+                letter-spacing: -0.500211px;
+                border: none;
+                width: 290px;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                transition: .2s ease-in-out;
+
+                &:hover {
+                    background: $yellow;
+                    color: #3D3D3D;
+                }
+
+                span {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about__content-number {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .about__content-text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .about__buttons-btn-item {
+        width: 158px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.500211px;
+
+        span img {
+            width: 11px;
+            height: 12px;
+        }
+    }
+
+    .about__buttons-btn {
+        margin-right: 15px;
+    }
+}

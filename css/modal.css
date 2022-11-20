@@ -1,0 +1,98 @@
+/*
+Error: Undefined variable: "$title-black".
+        on line 35 of /Users/a1/Desktop/Personal-portfolio/sass/modal.scss
+
+30:             &-closeBtn {
+31:                 float: right;
+32:                 margin-left: 50px;
+33:                 background: none !important;
+34:                 font-size: 28px;
+35:                 color: $title-black;
+36:                 transition: .2s ease-in-out;
+37:                 position: absolute;
+38:                 right: 35px;
+39: 
+40:                 &:hover {
+
+Backtrace:
+/Users/a1/Desktop/Personal-portfolio/sass/modal.scss:35
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/private/var/folders/55/ccsvwmkn6cbbmln3cbd69x640000gn/T/AppTranslocation/0477C834-54B2-4452-B1C4-2C2DA06CF876/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$title-black\".\A         on line 35 of /Users/a1/Desktop/Personal-portfolio/sass/modal.scss\A \A 30:             &-closeBtn {\A 31:                 float: right;\A 32:                 margin-left: 50px;\A 33:                 background: none !important;\A 34:                 font-size: 28px;\A 35:                 color: $title-black;\A 36:                 transition: .2s ease-in-out;\A 37:                 position: absolute;\A 38:                 right: 35px;\A 39: \A 40:                 &:hover {"; }

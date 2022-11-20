@@ -1,0 +1,96 @@
+.skills {
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-list-item {
+            font-weight: 500;
+            font-size: $font-main;
+            line-height: 150.38%;
+            letter-spacing: 0.03em;
+            color: $main-white;
+            margin-bottom: 27px;
+
+            &-line {
+                width: 490px;
+                background: $main-white;
+                height: 9px;
+                display: block;
+                position: relative;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+
+.html {
+    width: 490px;
+    background: $main-white;
+    height: 9px;
+    display: block;
+    position: relative;
+    border-radius: 8px;
+}
+
+.html::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 380px;
+    height: 9px;
+    background: $yellow;
+    border-radius: 8px;
+}
+
+.css {
+    width: 490px;
+    background: $main-white;
+    height: 9px;
+    display: block;
+    position: relative;
+    border-radius: 8px;
+}
+
+.css::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 320px;
+    height: 9px;
+    background: $yellow;
+    border-radius: 8px;
+}
+
+.js {
+    width: 490px;
+    background: $main-white;
+    height: 9px;
+    display: block;
+    position: relative;
+    border-radius: 8px;
+}
+
+.js::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 130px;
+    height: 9px;
+    background: $yellow;
+    border-radius: 8px;
+}
+
+.procent {
+    float: right;
+}
